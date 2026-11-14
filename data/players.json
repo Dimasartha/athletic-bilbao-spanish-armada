@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Rodrigo",
+    "position": "ST",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Former signing",
+    "ovr": null,
+    "seasons": [
+      1
+    ],
+    "photo": "",
+    "notes": "Season 1 best signing"
+  },
+  {
+    "name": "Hugo Mallo",
+    "position": "RB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Former squad member",
+    "ovr": null,
+    "seasons": [
+      1
+    ],
+    "photo": "",
+    "notes": "Season 1 least impactful signing"
+  },
+  {
+    "name": "Kepa Arrizabalaga",
+    "position": "GK",
+    "position_group": "GK",
+    "nationality": "Spain",
+    "status": "Young player",
+    "ovr": null,
+    "seasons": [
+      1
+    ],
+    "photo": "",
+    "notes": "Received some playing time in Season 1"
+  },
+  {
+    "name": "Raúl Albiol",
+    "position": "CB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Best signing — Season 2",
+    "ovr": null,
+    "seasons": [
+      2
+    ],
+    "photo": "",
+    "notes": "Season 2 best signing"
+  },
+  {
+    "name": "Oriol Romeu",
+    "position": "CM",
+    "position_group": "MID",
+    "nationality": "Spain",
+    "status": "Developing talent",
+    "ovr": null,
+    "seasons": [
+      2,
+      3
+    ],
+    "photo": "",
+    "notes": "Season 2 young player to watch"
+  },
+  {
+    "name": "Álvaro Morata",
+    "position": "ST",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "New arrival — Season 3",
+    "ovr": null,
+    "seasons": [
+      3
+    ],
+    "photo": "",
+    "notes": "U21 signing"
+  },
+  {
+    "name": "David de Gea",
+    "position": "GK",
+    "position_group": "GK",
+    "nationality": "Spain",
+    "status": "New arrival — Season 3",
+    "ovr": null,
+    "seasons": [
+      3
+    ],
+    "photo": "",
+    "notes": "Goalkeeper signing"
+  },
+  {
+    "name": "Jordi Amat",
+    "position": "CB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "New arrival — Season 3",
+    "ovr": null,
+    "seasons": [
+      3
+    ],
+    "photo": "",
+    "notes": "Counts as Spanish according to the FIFA 13 database"
+  }
+]

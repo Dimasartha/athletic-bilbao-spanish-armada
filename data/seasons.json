@@ -1,0 +1,57 @@
+[
+  {
+    "id": "season-01",
+    "number": 1,
+    "title": "The Foundation",
+    "status": "COMPLETED",
+    "league_finish": "5th",
+    "trophies": [],
+    "best_signing": "Rodrigo",
+    "young_player": "Kepa Arrizabalaga",
+    "summary": "The first chapter established a Spanish-focused squad identity and introduced the project's recruitment philosophy.",
+    "objectives": [
+      "Build a competitive Spanish-focused squad",
+      "Establish a realistic transfer approach"
+    ],
+    "review": "Finished 5th in La Liga with no trophies. The squad contained 28 Spanish players and one foreign player. Rodrigo was the standout signing. Hugo Mallo had a limited impact behind Iraola.",
+    "key_decisions": "The project began prioritising Spanish nationality in the in-game database. Kepa received some opportunities, although Iraizoz remained more consistent."
+  },
+  {
+    "id": "season-02",
+    "number": 2,
+    "title": "The Spanish Standard",
+    "status": "COMPLETED",
+    "league_finish": "4th",
+    "trophies": [],
+    "best_signing": "Raúl Albiol",
+    "young_player": "Oriol Romeu",
+    "summary": "The squad completed its transition to an entirely Spanish group and moved one place higher in the league.",
+    "objectives": [
+      "Complete the Spanish-only squad transition",
+      "Improve on the previous league finish"
+    ],
+    "review": "Finished 4th in La Liga with no trophies. The squad reached 29 Spanish players and zero foreign players. Raúl Albiol was the best signing. Oriol Romeu was the standout young player.",
+    "key_decisions": "Amorebieta was moved on in a swap involving Raúl Albiol. Granero was assessed cautiously because he arrived in January."
+  },
+  {
+    "id": "season-03",
+    "number": 3,
+    "title": "The Transition",
+    "status": "IN PROGRESS",
+    "league_finish": "TBD",
+    "trophies": [],
+    "best_signing": "TBD",
+    "young_player": "Álvaro Morata",
+    "summary": "A transitional campaign: new arrivals strengthen key areas while Iraola and Fernando Navarro approach retirement.",
+    "objectives": [
+      "Finish in the La Liga top four; 3rd is the stretch target",
+      "Reach at least the Copa del Rey semi-finals",
+      "Give Álvaro Morata meaningful opportunities",
+      "Continue Oriol Romeu's development",
+      "Prepare successors at right-back and left-back for Season 4",
+      "Give Iraola and Fernando Navarro a fitting final campaign"
+    ],
+    "review": "Season currently in progress. No final results recorded yet.",
+    "key_decisions": "Arrivals: Álvaro Morata, David de Gea, and Jordi Amat. Departures: Aritz Aduriz, Herrerín, and Etxeberria. All three incoming transfer slots have been used; no further signings are planned, including January."
+  }
+]

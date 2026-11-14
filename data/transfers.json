@@ -1,0 +1,66 @@
+[
+  {
+    "season": 2,
+    "player": "Raúl Albiol",
+    "type": "IN",
+    "position": "CB",
+    "fee": "Swap deal + fee",
+    "notes": "Arrived in exchange involving Amorebieta"
+  },
+  {
+    "season": 2,
+    "player": "Amorebieta",
+    "type": "OUT",
+    "position": "CB",
+    "fee": "Swap deal",
+    "notes": "Moved on in the Albiol deal"
+  },
+  {
+    "season": 3,
+    "player": "Álvaro Morata",
+    "type": "IN",
+    "position": "ST",
+    "fee": "TBD",
+    "notes": "U21 signing"
+  },
+  {
+    "season": 3,
+    "player": "David de Gea",
+    "type": "IN",
+    "position": "GK",
+    "fee": "TBD",
+    "notes": "Goalkeeper reinforcement"
+  },
+  {
+    "season": 3,
+    "player": "Jordi Amat",
+    "type": "IN",
+    "position": "CB",
+    "fee": "TBD",
+    "notes": "Spanish nationality in the in-game database"
+  },
+  {
+    "season": 3,
+    "player": "Aritz Aduriz",
+    "type": "OUT",
+    "position": "ST",
+    "fee": "TBD",
+    "notes": "Departure"
+  },
+  {
+    "season": 3,
+    "player": "Herrerín",
+    "type": "OUT",
+    "position": "GK",
+    "fee": "TBD",
+    "notes": "Departure"
+  },
+  {
+    "season": 3,
+    "player": "Etxeberria",
+    "type": "OUT",
+    "position": "CB",
+    "fee": "TBD",
+    "notes": "Departure"
+  }
+]
