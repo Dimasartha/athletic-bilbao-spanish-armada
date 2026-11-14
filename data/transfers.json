@@ -1,11 +1,67 @@
 [
   {
+    "season": 1,
+    "player": "Rodrigo",
+    "type": "IN",
+    "position": "ST",
+    "fee": "TBD",
+    "notes": "U21 signing"
+  },
+  {
+    "season": 1,
+    "player": "Fernando Navarro",
+    "type": "IN",
+    "position": "LB",
+    "fee": "TBD",
+    "notes": "Experience signing"
+  },
+  {
+    "season": 1,
+    "player": "Hugo Mallo",
+    "type": "IN",
+    "position": "RB",
+    "fee": "TBD",
+    "notes": "U21 signing"
+  },
+  {
+    "season": 1,
+    "player": "Fernando Llorente",
+    "type": "OUT",
+    "position": "ST",
+    "fee": "TBD",
+    "notes": "Moved to Man City"
+  },
+  {
+    "season": 1,
+    "player": "Saborit",
+    "type": "OUT",
+    "position": "LB",
+    "fee": "TBD",
+    "notes": "-"
+  },
+  {
     "season": 2,
     "player": "Raúl Albiol",
     "type": "IN",
     "position": "CB",
     "fee": "Swap deal + fee",
     "notes": "Arrived in exchange involving Amorebieta"
+  },
+  {
+    "season": 2,
+    "player": "Oriol Romeu",
+    "type": "IN",
+    "position": "CDM",
+    "fee": "TBD",
+    "notes": "U21 signing"
+  },
+  {
+    "season": 2,
+    "player": "Granero",
+    "type": "IN",
+    "position": "CM",
+    "fee": "TBD",
+    "notes": "Rotation player"
   },
   {
     "season": 2,
@@ -20,7 +76,7 @@
     "player": "Álvaro Morata",
     "type": "IN",
     "position": "ST",
-    "fee": "TBD",
+    "fee": "$8.700.000",
     "notes": "U21 signing"
   },
   {
@@ -28,7 +84,7 @@
     "player": "David de Gea",
     "type": "IN",
     "position": "GK",
-    "fee": "TBD",
+    "fee": "$11.000.000",
     "notes": "Goalkeeper reinforcement"
   },
   {
@@ -36,7 +92,7 @@
     "player": "Jordi Amat",
     "type": "IN",
     "position": "CB",
-    "fee": "TBD",
+    "fee": "$1.900.000",
     "notes": "Spanish nationality in the in-game database"
   },
   {
@@ -44,7 +100,7 @@
     "player": "Aritz Aduriz",
     "type": "OUT",
     "position": "ST",
-    "fee": "TBD",
+    "fee": "$3.200.000",
     "notes": "Departure"
   },
   {
@@ -52,7 +108,7 @@
     "player": "Herrerín",
     "type": "OUT",
     "position": "GK",
-    "fee": "TBD",
+    "fee": "$675.000",
     "notes": "Departure"
   },
   {
