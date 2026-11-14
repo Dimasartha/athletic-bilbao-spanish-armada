@@ -7,7 +7,50 @@ const seasonLabel = n => `Season ${String(n).padStart(2,'0')}`;
 function seasonCard(s){return `<a class="season-card" href="${url('pages/season-detail.html?id='+encodeURIComponent(s.id))}"><div class="season-card-top"><span>${seasonLabel(s.number)}</span><span>${esc(s.status||'ARCHIVED')}</span></div><h3>${esc(s.title||'Untitled season')}</h3><p>${esc(s.summary||'Season report coming soon.')}</p><div class="season-card-bottom"><span>League finish <b>${esc(s.league_finish||'TBD')}</b></span><span>Explore ↗</span></div></a>`}
 function statCard(label,value,note=''){return `<div class="stat-card"><span>${esc(label)}</span><strong>${esc(value)}</strong><small>${esc(note)}</small></div>`}
 async function initHome(){const seasons=await loadData('seasons');const completed=seasons.filter(s=>s.status==='COMPLETED');const best=completed.map(s=>Number(s.league_finish)).filter(n=>n>0).sort((a,b)=>a-b)[0];const stats=document.querySelector('#overview-stats');if(stats)stats.innerHTML=[statCard('Seasons recorded',seasons.length,'The archive journey'),statCard('Best league finish',best?`#${best}`:'TBD','Across completed seasons'),statCard('Trophies','0','Update in trophy history'),statCard('Squad identity','Spanish','In-game nationality policy')].join('');const home=document.querySelector('#home-seasons');if(home)home.innerHTML=seasons.slice().sort((a,b)=>b.number-a.number).slice(0,3).map(seasonCard).join('');const all=document.querySelector('#all-seasons');if(all)all.innerHTML=seasons.slice().sort((a,b)=>a.number-b.number).map(seasonCard).join('')}
-async function initSquad(){const grid=document.querySelector('#player-grid');if(!grid)return;const players=await loadData('players');const search=document.querySelector('#player-search'),pos=document.querySelector('#position-filter'),season=document.querySelector('#season-filter'),empty=document.querySelector('#player-empty');function render(){const q=search.value.toLowerCase();const filtered=players.filter(p=>(!q||p.name.toLowerCase().includes(q))&&(!pos.value||p.position_group===pos.value)&&(!season.value||(p.seasons||[]).includes(Number(season.value))));grid.innerHTML=filtered.map(p=>`<article class="player-card"><div class="player-photo" style="${p.photo?'background-image:url(../'+esc(p.photo)+')':''}">${p.photo?'':esc(p.initials||p.name.split(' ').map(x=>x[0]).slice(0,2).join(''))}</div><div class="player-info"><div class="player-meta"><span>${esc(p.position||'Position TBD')}</span><span class="ovr">${esc(p.ovr??'--')}</span></div><h3>${esc(p.name)}</h3><p>${esc(p.nationality||'Nationality TBD')} · ${esc(p.status||'Squad')}</p></div></article>`).join('');empty.hidden=filtered.length>0} [search,pos,season].forEach(el=>el.addEventListener('input',render));render()}
+async function initSquad() {
+  const grid = document.querySelector('#player-grid');
+  if (!grid) return;
+  const players = await loadData('players');
+  const search = document.querySelector('#player-search'),
+        pos = document.querySelector('#position-filter'),
+        season = document.querySelector('#season-filter'),
+        empty = document.querySelector('#player-empty');
+
+  function render() {
+    const q = search.value.toLowerCase();
+    const filtered = players.filter(p =>
+      (!q || p.name.toLowerCase().includes(q)) &&
+      (!pos.value || p.position_group === pos.value) &&
+      (!season.value || (p.seasons || []).includes(Number(season.value)))
+    );
+
+    grid.innerHTML = filtered.map(p => {
+      const photoUrl = p.photo
+        ? (/^https?:\/\//i.test(p.photo) ? p.photo : '../' + p.photo)
+        : '';
+      const initials = esc(p.initials || p.name.split(' ').map(x => x[0]).slice(0, 2).join(''));
+
+      return `<article class="player-card">
+        <div class="player-photo" style="${photoUrl ? `background-image:url('${esc(photoUrl)}');background-size:cover;background-position:center top;` : ''}">
+          ${photoUrl ? '' : initials}
+        </div>
+        <div class="player-info">
+          <div class="player-meta">
+            <span>${esc(p.position || 'Position TBD')}</span>
+            <span class="ovr">${esc(p.ovr ?? '--')}</span>
+          </div>
+          <h3>${esc(p.name)}</h3>
+          <p>${esc(p.nationality || 'Nationality TBD')} · ${esc(p.status || 'Squad')}</p>
+        </div>
+      </article>`;
+    }).join('');
+
+    empty.hidden = filtered.length > 0;
+  }
+
+  [search, pos, season].forEach(el => el.addEventListener('input', render));
+  render();
+}
 async function initTransfers(){const body=document.querySelector('#transfer-table');if(!body)return;const transfers=await loadData('transfers');const sf=document.querySelector('#transfer-season'),tf=document.querySelector('#transfer-type'),empty=document.querySelector('#transfer-empty');function render(){const rows=transfers.filter(t=>(!sf.value||String(t.season)===sf.value)&&(!tf.value||t.type===tf.value));body.innerHTML=rows.map(t=>`<tr><td>${seasonLabel(t.season)}</td><td><b>${esc(t.player)}</b></td><td><span class="movement ${t.type==='IN'?'in':'out'}">${t.type==='IN'?'ARRIVAL':'DEPARTURE'}</span></td><td>${esc(t.position||'—')}</td><td>${esc(t.fee||'Undisclosed')}</td><td>${esc(t.notes||'—')}</td></tr>`).join('');empty.hidden=rows.length>0}[sf,tf].forEach(el=>el.addEventListener('change',render));render()}
 async function initRecords(){const grid=document.querySelector('#record-stats');if(!grid)return;const records=await loadData('records');const featured=records.slice(0,4);grid.innerHTML=featured.map(r=>statCard(r.label,r.value,r.note||'')).join('');const body=document.querySelector('#records-table');body.innerHTML=records.map(r=>`<tr><td>${esc(r.label)}</td><td>${esc(r.holder||'TBD')}</td><td><b>${esc(r.value)}</b></td><td>${esc(r.note||'—')}</td></tr>`).join('')}
 async function initHistory(){const el=document.querySelector('#history-timeline');if(!el)return;const seasons=await loadData('seasons');el.innerHTML=seasons.sort((a,b)=>a.number-b.number).map(s=>`<article class="timeline-item"><span>${seasonLabel(s.number)} · ${esc(s.status||'PLANNED')}</span><h3>${esc(s.title)}</h3><p>${esc(s.summary||'Details to be added.')}</p></article>`).join('')}
