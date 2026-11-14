@@ -31,8 +31,10 @@ async function initSquad() {
       const initials = esc(p.initials || p.name.split(' ').map(x => x[0]).slice(0, 2).join(''));
 
       return `<article class="player-card">
-        <div class="player-photo" style="${photoUrl ? `background-image:url('${esc(photoUrl)}');background-size:cover;background-position:center top;` : ''}">
-          ${photoUrl ? '' : initials}
+        <div class="player-photo">
+          ${photoUrl
+            ? `<img src="${esc(photoUrl)}" alt="${esc(p.name)}" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:contain;display:block;">`
+            : initials}
         </div>
         <div class="player-info">
           <div class="player-meta">
