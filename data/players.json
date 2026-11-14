@@ -1,82 +1,25 @@
 [
   {
-    "name": "Rodrigo",
-    "position": "ST",
-    "position_group": "FWD",
-    "nationality": "Spain",
-    "status": "Former signing",
-    "ovr": null,
-    "seasons": [
-      1
-    ],
-    "photo": "",
-    "notes": "Season 1 best signing"
-  },
-  {
-    "name": "Hugo Mallo",
-    "position": "RB",
-    "position_group": "DEF",
-    "nationality": "Spain",
-    "status": "Former squad member",
-    "ovr": null,
-    "seasons": [
-      1
-    ],
-    "photo": "",
-    "notes": "Season 1 least impactful signing"
-  },
-  {
     "name": "Kepa Arrizabalaga",
     "position": "GK",
     "position_group": "GK",
     "nationality": "Spain",
-    "status": "Young player",
-    "ovr": null,
-    "seasons": [
-      1
-    ],
+    "status": "Active squad",
+    "ovr": 69,
+    "seasons": [1, 2, 3],
     "photo": "",
     "notes": "Received some playing time in Season 1"
   },
   {
-    "name": "Raúl Albiol",
-    "position": "CB",
-    "position_group": "DEF",
+    "name": "Iraizoz",
+    "position": "GK",
+    "position_group": "GK",
     "nationality": "Spain",
-    "status": "Best signing — Season 2",
-    "ovr": null,
-    "seasons": [
-      2
-    ],
+    "status": "Active squad",
+    "ovr": 79,
+    "seasons": [1, 2, 3],
     "photo": "",
-    "notes": "Season 2 best signing"
-  },
-  {
-    "name": "Oriol Romeu",
-    "position": "CM",
-    "position_group": "MID",
-    "nationality": "Spain",
-    "status": "Developing talent",
-    "ovr": null,
-    "seasons": [
-      2,
-      3
-    ],
-    "photo": "",
-    "notes": "Season 2 young player to watch"
-  },
-  {
-    "name": "Álvaro Morata",
-    "position": "ST",
-    "position_group": "FWD",
-    "nationality": "Spain",
-    "status": "New arrival — Season 3",
-    "ovr": null,
-    "seasons": [
-      3
-    ],
-    "photo": "",
-    "notes": "U21 signing"
+    "notes": ""
   },
   {
     "name": "David de Gea",
@@ -84,12 +27,65 @@
     "position_group": "GK",
     "nationality": "Spain",
     "status": "New arrival — Season 3",
-    "ovr": null,
-    "seasons": [
-      3
-    ],
+    "ovr": 80,
+    "seasons": [3],
     "photo": "",
     "notes": "Goalkeeper signing"
+  },
+  {
+    "name": "Herrerín",
+    "position": "GK",
+    "position_group": "GK",
+    "nationality": "Spain",
+    "status": "Former Player",
+    "ovr": 68,
+    "seasons": [1, 2],
+    "photo": "",
+    "notes": "Failed to perform"
+  },
+  {
+    "name": "Raúl Albiol",
+    "position": "CB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 82,
+    "seasons": [2, 3],
+    "photo": "",
+    "notes": "Season 2 best signing"
+  },
+  {
+    "name": "Ramalho",
+    "position": "CB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 68,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Ekiza",
+    "position": "CB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 78,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Mikel San José",
+    "position": "CB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 81,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
   },
   {
     "name": "Jordi Amat",
@@ -97,11 +93,284 @@
     "position_group": "DEF",
     "nationality": "Spain",
     "status": "New arrival — Season 3",
-    "ovr": null,
-    "seasons": [
-      3
-    ],
+    "ovr": 71,
+    "seasons": [3],
     "photo": "",
     "notes": "Counts as Spanish according to the FIFA 13 database"
+  },
+  {
+    "name": "Amorebieta",
+    "position": "CB",
+    "position_group": "DEF",
+    "nationality": "Venezuela",
+    "status": "Former Player",
+    "ovr": 80,
+    "seasons": [1],
+    "photo": "",
+    "notes": "Foreign players, must be sold"
+  },
+  {
+    "name": "Xabi Castillo",
+    "position": "LB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 67,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Aurtenetxe",
+    "position": "LB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 77,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Fernando Navarro",
+    "position": "LB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 72,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": "Retiring at Contract End"
+  },
+  {
+    "name": "Saborit",
+    "position": "LB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Former Player",
+    "ovr": 65,
+    "seasons": [1],
+    "photo": "",
+    "notes": "Low rated"
+  },
+  {
+    "name": "Hugo Mallo",
+    "position": "RB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 78,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": "Season 1 least impactful signing"
+  },
+  {
+    "name": "Iraola",
+    "position": "RB",
+    "position_group": "DEF",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 76,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": "Retiring at Contract End"
+  },
+  {
+    "name": "Oriol Romeu",
+    "position": "CDM",
+    "position_group": "MID",
+    "nationality": "Spain",
+    "status": "Developing talent",
+    "ovr": 78,
+    "seasons": [2, 3],
+    "photo": "",
+    "notes": "Season 2 young player to watch"
+  },
+  {
+    "name": "Gurpegi",
+    "position": "CDM",
+    "position_group": "MID",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 68,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Iturraspe",
+    "position": "CDM",
+    "position_group": "MID",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 80,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Granero",
+    "position": "CM",
+    "position_group": "MID",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 79,
+    "seasons": [2, 3],
+    "photo": "",
+    "notes": "Rotation player"
+  },
+  {
+    "name": "Iñigo Pérez",
+    "position": "CM",
+    "position_group": "MID",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 75,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Ruiz de Galarreta",
+    "position": "CM",
+    "position_group": "MID",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 70,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "De Marcos",
+    "position": "CM",
+    "position_group": "MID",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 83,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Ander Herrera",
+    "position": "CM",
+    "position_group": "MID",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 82,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Isma López",
+    "position": "LW",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 74,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Ibai Gómez",
+    "position": "LW",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 79,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Muniain",
+    "position": "LW",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 86,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Igor Martínez",
+    "position": "RW",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 72,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Susaeta",
+    "position": "RW",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 84,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Toquero",
+    "position": "ST",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 73,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": ""
+  },
+  {
+    "name": "Rodrigo",
+    "position": "ST",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Active squad",
+    "ovr": 86,
+    "seasons": [1, 2, 3],
+    "photo": "",
+    "notes": "Season 1 best signing"
+  },
+  {
+    "name": "Álvaro Morata",
+    "position": "ST",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "New arrival — Season 3",
+    "ovr": 74,
+    "seasons": [3],
+    "photo": "",
+    "notes": "U21 signing"
+  },
+  {
+    "name": "Fernando Llorente",
+    "position": "ST",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Former Player",
+    "ovr": 83,
+    "seasons": [1],
+    "photo": "",
+    "notes": "Failed to perform"
+  },
+  {
+    "name": "Aritz Aduriz",
+    "position": "ST",
+    "position_group": "FWD",
+    "nationality": "Spain",
+    "status": "Former Player",
+    "ovr": 72,
+    "seasons": [1, 2],
+    "photo": "",
+    "notes": "Too old"
   }
 ]
